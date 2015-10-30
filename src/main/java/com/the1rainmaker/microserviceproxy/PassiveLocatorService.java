@@ -23,7 +23,7 @@ public class PassiveLocatorService {
     private static final Logger LOGGER = LoggerFactory.getLogger(PassiveLocatorService.class);
 
     private String targetUrlPrefix;
-    private String serviceSuffix = "/ws/store/locator/VA/22015";
+    private String serviceSuffix = "/ws/store/locator/VA/20190";
 
     public PassiveLocatorService(String _targetUrlPrefix) {
         targetUrlPrefix = _targetUrlPrefix;
